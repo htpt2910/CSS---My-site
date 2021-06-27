@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+body {
+    background-color:#FFF5EB;
+    font-family: 'Comfortaa', cursive;
+    text-align: left;
+    font-size: 15px;
+    position: relative;
+    top: 200px;
+    left: 0px;
+    right: 0px;
+    color: #C68B59;
+}
+
+ul {
+    list-style: none;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding-top: 35px;
+    top: 0px;
+    width: 100%;
+    z-index: 7;
+    position: fixed;
+    background-color:#FFF5EB;
+    height: 30px;
+}
+li {
+    float: left;
+    position: relative;
+}
+
+
+li a {
+    padding: 15px 15px;
+    color: #C68B59;
+    text-decoration: none;
+    padding-top:15px ;
+}
+.info {
+    margin-left: 690px;
+}
+.info::before {
+    content: '';
+    display: block;
+    height: 3px;
+    background-color: #C68B59;
+    position: absolute;
+    bottom: -15px;
+    width: 0%;
+    transform: all ease-in-out 250ms;
+}
+.info:hover::before {
+    margin-left: 690px;
+    width: 70px;
+}
+a::before {
+    content: '';
+    display: block;
+    height: 3px;
+    background-color: #C68B59;
+    position: absolute;
+    bottom: -15px;
+    width: 0%;
+    transform: all ease-in-out 250ms;
+}
+a:hover::before {
+    width: 100%;
+}
+
+.button-contact:hover::before {
+    width: 0%;
+}
+li a:hover {
+    color: #C68B59;
+    font-weight: bolder;
+}
+.button-contact {
+    display: block;
+    padding: 0;
+    border: 0;
+    margin-left: 15px;
+}
+.button-contact a {
+    padding: 7px 15px;
+    color: white;
+    background-color: #C68B59;
+    border: 1px solid #C68B59;
+    border-radius: 50em;
+}
+
+.button-contact :hover {
+    background-color: white;
+    color: #C68B59;
+}
+
+.first-page-text {
+    width: 40%;
+    font-size: 20px;
+    line-height: 2;
+    margin-left: 40px;
+    bottom: 100px;
+}
+
+h1 {
+    line-height: 1;
+}
+
+/*  */
+.gif-box {
+    width: 500px; height: 500px;
+    position: absolute;
+    z-index: 6;
+    right: 100px;
+    top: -80px;
+    border-radius: 10%;
+}
+.icon-pic {
+    width: 100px; height: 100px;
+    top: 200px;
+}
+
+.change-color-when-hover-letter:hover  {
+    color: black;
+}
+.p2 {
+    line-height: 2;
+    width: 90%;
+}
+h1.infos {
+    line-height: 2;
+    margin-left: 40px;
+}
+.home-gif {
+    position: relative;
+    bottom: 10px;
+    left: 500px;
+}

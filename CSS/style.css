@@ -3,7 +3,7 @@
 body {
     background-color:#FFF5EB;
     font-family: 'Comfortaa', cursive;
-    text-align: left;
+    text-align: center;
     font-size: 15px;
     position: relative;
     top: 200px;
@@ -52,9 +52,9 @@ li a {
 }
 .info:hover::before {
     margin-left: 690px;
-    width: 70px;
+    width: 10px;
 }
-a::before {
+ .navbar a::before {
     content: '';
     display: block;
     height: 3px;
@@ -64,7 +64,7 @@ a::before {
     width: 0%;
     transform: all ease-in-out 250ms;
 }
-a:hover::before {
+.navbar a:hover::before {
     width: 100%;
 }
 
@@ -106,7 +106,6 @@ h1 {
     line-height: 1;
 }
 
-/*  */
 .gif-box {
     width: 500px; height: 500px;
     position: absolute;
@@ -134,5 +133,94 @@ h1.infos {
 .home-gif {
     position: relative;
     bottom: 10px;
-    left: 500px;
+}
+
+.profile-box {
+    width: 90%; height: 800px;
+    margin: 50px auto 50px auto;
+    border-radius: 10em;
+    border-color: #865439;
+    background-color: white;
+    border: solid 2px;
+}
+
+.profile-files {
+    width: 30%;
+    height: 50%;
+    margin-left: 50px;
+    margin-right: 600px;
+    /* text-align: left; */
+    position: relative;
+    bottom: 270px;
+}
+
+.about-text {
+    line-height: 2;
+    width: 90%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-pic {
+    width: 20%;
+    border-radius: 100em;
+    margin-top: 50px;
+    
+}
+h2 {
+    width: 100%;
+}
+.hr1 {
+    width: 30%;
+    border-color:bisque;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;  
+}
+
+.detail-files {
+    width: 30%;
+    height: 50%;
+    position: relative;
+    bottom: 690px;
+    margin-left: 700px;
+    line-height: 2;
+}
+
+.detail-text {
+    line-height: 2;
+    width: 70%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p1 {
+    text-align: left;
+}
+ 
+.p3 {
+    position: relative;
+    bottom: 750px;
+}
+
+.button-donate a {
+    position: relative;
+    bottom: 740px;
+    color: white;
+    background-color: #C68B59;
+    /* border: 1px solid #C68B59; */
+    border-radius: 50em;
+    text-decoration:none;
+    border: 0;
+    width: 10%;
+    padding: 10px 15px;
+}
+
+.button-donate a:hover {
+    background-color: white;
+    color: #C68B59 ;
+    border-color: #865439;
+    border-style: solid 2px;
 }
